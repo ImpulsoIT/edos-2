@@ -1,0 +1,6 @@
+{
+  "name": "Método EDOS - Plan Maestro",
+  "description": "Página de aterrizaje de alta conversión para el Plan Maestro: Programa Sincrónico 'Método EDOS' de Educación Sexual Integral.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
