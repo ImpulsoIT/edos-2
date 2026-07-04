@@ -1,4 +1,4 @@
-// Core landing page data in Spanish for "PLAN MAESTRO: PROGRAMA SINCRÓNICO MÉTODO EDOS"
+// Core landing page data in Spanish for "Método EDOS: Programa Sincrónico 'Educarte'" (Mgt. Tatiana Domínguez Valencia)
 
 export interface ClassSession {
   title: string;
@@ -48,30 +48,30 @@ export interface TestimonialItem {
   badge?: string;
 }
 
-// 1. Course Curriculum Modules Data
+// 1. Course Curriculum Modules Data (From PDF Pages 2, 3, 4)
 export const COURSE_MODULES: CourseModule[] = [
   {
     id: "module-1",
     number: 1,
-    title: "Mi Cuerpo, Mi Placer y Mis Dudas",
-    objective: "Sanar la relación con el propio cuerpo, validar el desarrollo biológico y desarmar la culpa desde un enfoque integral del Ser.",
+    title: "Módulo 1: \"Mi Cuerpo, Mi Placer y Mis Dudas\" (El Enfoque del Ser)",
+    objective: "Sanar la relación con el propio cuerpo, validar el desarrollo biológico de los hijos y desarmar la culpa.",
     classes: [
       {
-        title: "Lo que nadie te dice del Deseo: Amor Propio, Cambios y Mitos Sexuales",
+        title: "1. \"Lo que nadie te dice del Deseo: Amor Propio, Cambios y Mitos Sexuales\"",
         ledBy: "Trabajo Social",
-        painHandled: "Distorsión de la autoimagen, baja autoestima por expectativas de las redes y el miedo extremo a no ser normales física o emocionalmente. Ataca directamente la culpa y la profunda confusión generada por el uso de la pornografía como único y distorsionado educador sexual.",
+        painHandled: "La distorsión de la autoimagen, la baja autoestima por expectativas de las redes sociales y el miedo extremo a 'no ser normal' físicamente o en sus deseos. Ataca directamente la culpa y la confusión que genera usar la pornografía como único educador sexual en los jóvenes.",
         deliverables: [
-          "El Termómetro del Autoconcepto Sexual: Guía digital para identificar y desactivar las inseguridades corporales.",
-          "Cuestionario Interactivo 'Fantasía vs. Realidad': Herramienta didáctica para desmitificar la pornografía y comprender la sexualidad real."
+          "El Termómetro del Autoconcepto Sexual: Guía digital para identificar y desactivar las inseguridades corporales de tus hijos.",
+          "Cuestionario Interactivo \"Fantasía vs. Realidad\": Herramienta para desmitificar la pornografía y entender la sexualidad real."
         ]
       },
       {
-        title: "¿Y si me pregunta de sexo? Desarmando mitos, pornografía y silencios en casa y redes sociales",
+        title: "2. \"¿Y si me pregunta de sexo? Desarmando mitos, pornografía y silencios en casa y redes sociales de internet\"",
         ledBy: "Psicología",
-        painHandled: "Pánico parental frente al autoerotismo (masturbación) o al despertar sexual de los adolescentes. Resuelve la impotencia de no saber cómo reaccionar ante el consumo de pornografía sin acudir al grito, el castigo humillante o el silencio incómodo.",
+        painHandled: "El pánico y bloqueo de los padres al hablar del autoerotismo (masturbación) o del despertar sexual de sus hijos. Resuelve la impotencia de no saber cómo reaccionar ante el consumo de pornografía sin acudir al grito, el castigo o el silencio incómodo.",
         deliverables: [
-          "Guiones 'Rompe Hielos' para Preguntas Incómodas: Plantillas conversacionales paso a paso con respuestas exactas, científicas y libres de tabúes.",
-          "Guía de Mediación Parental Afectiva: Manual práctico para abordar el hallazgo de material explícito desde un enfoque amoroso y educativo."
+          "Guiones \"Rompe Hielos\" para Preguntas Incómodas: Plantillas paso a paso con respuestas exactas, científicas y sin tabúes a las dudas más difíciles de los hijos.",
+          "Guía de Mediación Parental Afectiva: Manual para abordar el hallazgo de material explícito desde un enfoque educativo y empático."
         ]
       }
     ]
@@ -79,25 +79,25 @@ export const COURSE_MODULES: CourseModule[] = [
   {
     id: "module-2",
     number: 2,
-    title: "El Arte de Decidir: Consentimiento y Seducción",
-    objective: "Construir relaciones equitativas, aprender a establecer límites firmes y prevenir tempranamente dinámicas de violencia, manipulación o abuso.",
+    title: "Módulo 2: \"El Arte de Decidir: Consentimiento y Seducción\" (El Enfoque del Otro)",
+    objective: "Construir relaciones equitativas, aprender a poner límites firmes y prevenir de forma eficaz dinámicas de violencia o abuso.",
     classes: [
       {
-        title: "Seducción con Respeto: Consentimiento, Deseo Compartido y el Poder del 'NO'",
+        title: "1. \"Seducción con Respeto: Consentimiento, Deseo Compartido y el Poder del 'NO'\"",
         ledBy: "Psicología",
-        painHandled: "La fuerte presión social y de pareja en los jóvenes. Maneja el miedo al rechazo o al abandono si deciden decir 'no' a una práctica sexual. Desactiva conductas normalizadas de control digital como los celos obsesivos, revisar el teléfono celular, exigir fotos íntimas o el sexting bajo coerción.",
+        painHandled: "La presión social y de pareja que sufren los adolescentes. Maneja el miedo al rechazo o al abandono si dicen que 'no' a una práctica sexual. Ataca conductas normalizadas de control digital (celos, revisar el teléfono, exigir fotos íntimas o sexting presionado).",
         deliverables: [
-          "El Semáforo del Consentimiento (Físico y Digital): Matriz visual clave para identificar cuándo un 'Sí' es real, libre y entusiasta, y cuándo es producto de la manipulación.",
-          "Guía de Bolsillo para la Asertividad Relacional: Plantillas de comunicación para decir 'No' con seguridad y firmeza sin experimentar culpa."
+          "El Semáforo del Consentimiento (Físico y Digital): Matriz visual para aprender a identificar cuándo un \"Sí\" es real, libre y entusiasta, y cuándo es producto de la manipulación.",
+          "Guía de Bolsillo para la Asertividad Relacional: Plantillas de comunicación para decir \"No\" con seguridad y firmeza sin sentirse culpables."
         ]
       },
       {
-        title: "Límites que Salvan: Cómo proteger a tu hijo del abuso y los abusos disfrazados de amor",
+        title: "2. \"Límites que Salvan: Cómo proteger a tu hijo del abuso y los abusos disfrazados de amor\"",
         ledBy: "Trabajo Social",
-        painHandled: "La vulnerabilidad y la falta de control percibida por la familia. Alivia el pánico constante de los padres a que sus hijos sufran de abuso sexual, ciberacoso (grooming) o que queden atrapados en un noviazgo violento y tóxico sin que se den cuenta a tiempo.",
+        painHandled: "La vulnerabilidad y la falta de control en el noviazgo. Alivia el miedo constante de los padres a que sus hijos sufran abuso sexual, ciberacoso (grooming) o que estén atrapados en un noviazgo violento y tóxico sin que ellos se den cuenta.",
         deliverables: [
-          "Lista de Chequeo de 'Banderas Rojas' en el Noviazgo: Herramienta técnica de observación para que padres y docentes detecten comportamientos de alerta o aislamiento en el adolescente.",
-          "Protocolo de Actuación ante la Sospecha de Violencia: Manual internacional de primeros auxilios emocionales y legales para proteger y blindar al menor."
+          "Lista de Chequeo de \"Banderas Rojas\" en el Noviazgo: Herramienta técnica de observación para que padres y docentes detecten comportamientos de alerta o aislamiento en el adolescente.",
+          "Protocolo de Actuación ante la Sospecha de Violencia: Manual internacional de primeros auxilios emocionales y legales para proteger de inmediato al menor."
         ]
       }
     ]
@@ -105,242 +105,238 @@ export const COURSE_MODULES: CourseModule[] = [
   {
     id: "module-3",
     number: 3,
-    title: "Sexo Sentido: Cuidado y Proyecto de Vida",
-    objective: "Conectar de manera indisoluble el autocuidado y los derechos reproductivos con las metas, sueños y planes de futuro del adolescente.",
+    title: "Módulo 3: \"Sexo Sentido: Cuidado y Proyecto de Vida\" (El Mundo y el Futuro)",
+    objective: "Conectar el autocuidado y los derechos reproductivos con las metas del futuro del adolescente de manera motivadora.",
     classes: [
       {
-        title: "Sexo sin Susto: Anticoncepción Real, ITS y Cómo Cuidar tu Futuro",
+        title: "1. \"Sexo sin Susto: Anticoncepción Real, ITS y Cómo Cuidar tu Futuro\"",
         ledBy: "Medicina",
-        painHandled: "El riesgo invisible y la vergüenza que frena la prevención. Combate el miedo al embarazo no planeado o a las Infecciones de Transmisión Sexual (ITS/VIH) atacando el problema de raíz: el uso de métodos caseros erróneos o consejos peligrosos de TikTok por temor a asistir a consulta médica.",
+        painHandled: "El riesgo invisible y la vergüenza frente al cuidado. Combate el miedo al embarazo no planeado o a las Infecciones de Transmisión Sexual (ITS/VIH) manejando el problema de raíz: desmitificar el uso de métodos caseros erróneos o 'consejos de TikTok'.",
         deliverables: [
-          "Fichas Técnicas Descomplicadas 'Anticoncepción al Desnudo': Infografías interactivas con el funcionamiento real, mitos y verdades científicas de cada método.",
-          "Planificador 'Mi Proyecto de Vida Blindado': Matriz estratégica que conecta las metas profesionales y académicas del joven con sus decisiones de salud reproductiva."
+          "Fichas Técnicas Descomplicadas \"Anticoncepción al Desnudo\": Infografías interactivas con el funcionamiento, mitos y realidades de cada método anticonceptivo.",
+          "Planificador \"Mi Proyecto de Vida Blindado\": Matriz dinámica que conecta las metas profesionales del joven con sus decisiones de salud reproductiva."
         ]
       },
       {
-        title: "Gran Sesión Sincrónica de Preguntas y Respuestas sin Filtros",
-        ledBy: "Todo el Equipo Interdisciplinario (Medicina, Psicología y Trabajo Social)",
-        painHandled: "La falta de un espacio seguro para resolver dudas específicas y personales de cada familia o educador que no se atreven a hacer en público.",
+        title: "2. \"Preguntas y Respuestas Abiertas\"",
+        ledBy: "Todos (Trabajo Social, Psicología y Medicina)",
+        painHandled: "La incertidumbre acumulada o casos particulares complejos sin resolver. Brinda un espacio interdisciplinario donde todos los profesionales atienden de forma integral y sincrónica las dudas de los padres.",
         deliverables: [
-          "Grabaciones de por vida de la sesión para consulta posterior ante cualquier emergencia comunicativa familiar."
+          "Sesión Interactiva en Vivo de Auditoría de Dudas: Resolución de casos específicos planteados de forma anónima o directa por los padres.",
+          "Resumen de Cierre de Criterios Clínicos: Recopilación técnica con recomendaciones directas del equipo de salud y educación de EDOS."
         ]
       }
     ]
   }
 ];
 
-// 2. Offer Stack Core and Bonuses Data
+// 2. Offer Stack Core and Bonuses Data (From PDF Pages 4, 5, 6, 7)
 export const MAIN_VEHICLE = {
   title: "Educarte Live: 6 Encuentros en Vivo de Alta Transformación",
   valueUsd: 250,
   valueCop: 1000000,
-  description: "Acompañamiento en tiempo real con nuestro equipo interdisciplinario experto (Trabajo Social, Psicología y Medicina) para aprender el CÓMO actuar y sanar el vínculo familiar en vivo sin rodeos."
+  description: "Acompañamiento en tiempo real con el equipo interdisciplinario (Trabajo Social, Psicología y Medicina) para aprender el CÓMO actuar y sanar el vínculo familiar en vivo."
 };
 
 export const CORE_BONUSES: BonusItem[] = [
   {
     id: "bonus-1",
-    title: "Videoteca VIP de Respuestas Rápidas (Clips de 3 Minutos)",
-    valueUsd: 85,
-    valueCop: 345000,
-    hook: "¿Tu hijo te hizo una pregunta incómoda en la cena y te congelaste? Olvídate de leer libros extensos de 400 páginas. Abres esta videoteca privada desde tu celular, miras el clip de 3 minutos y sabrás exactamente qué responder con el lenguaje y tono correcto."
+    title: "Curso Completo \"Educación Sexual con Énfasis en Niños y Niñas\"",
+    valueUsd: 97,
+    valueCop: 400000,
+    hook: "No solo vas a blindar a tu hijo adolescente. Con este acceso premium a mi segundo programa en Hotmart aprenderás a proteger a los más pequeños desde la infancia, creando un escudo familiar permanente."
   },
   {
     id: "bonus-2",
-    title: "Certificado Académico de 12 Horas por el Equipo Interdisciplinario",
-    valueUsd: 42,
-    valueCop: 170000,
-    hook: "Un aval oficial que respalda tu compromiso y formación. Recibe un certificado de validez internacional firmado por nuestro Médico, Psicóloga y Trabajadora Social que acredita formalmente tus 12 horas de capacitación especializada en Educación Sexual Integral (ESI)."
+    title: "Videoteca VIP de Respuestas Rápidas (Clips de 3 Minutos)",
+    valueUsd: 85,
+    valueCop: 345000,
+    hook: "¿Tu hijo te hizo una pregunta incómoda en la cena y te congelaste? Olvídate de leer libros extensos de 400 páginas. Abres esta videoteca privada desde tu celular, miras el clip de 3 minutos y sabrás exactamente qué responder con el lenguaje correcto."
   },
   {
     id: "bonus-3",
-    title: "Cuaderno de Copiado: Plantillas de Conversaciones Listas para Usar",
-    valueUsd: 57,
-    valueCop: 230000,
-    hook: "Te quitamos de encima la presión de pensar qué decir. Recibes guiones escritos palabra por palabra para abrir de forma fluida conversaciones difíciles sobre límites, placer, pornografía y prevención sin que parezca un sermón aburrido."
+    title: "Certificado Académico de 12 Horas por el Equipo Interdisciplinario",
+    valueUsd: 42,
+    valueCop: 170000,
+    hook: "Un aval oficial que respalda tu compromiso. Recibe un certificado internacional firmado por nuestro Médico, Psicólogo y Trabajadora Social que acredita tus 12 horas de formación especializada en ESI."
   },
   {
     id: "bonus-4",
-    title: "Escudo Digital: Guía de Control Parental Configurado en 5 Minutos",
-    valueUsd: 49,
-    valueCop: 200000,
-    hook: "Bloquea el porno e internet antes de que llegue a los ojos de tus hijos. Un tutorial paso a paso con capturas de pantalla simples para configurar la privacidad y filtros de seguridad en Google, TikTok, YouTube y Netflix en un fin de semana."
+    title: "Cuaderno de Copiado: Plantillas de Conversaciones Listas para Usar",
+    valueUsd: 57,
+    valueCop: 230000,
+    hook: "Te quitamos la presión de pensar qué decir. Recibes guiones escritos palabra por palabra para abrir conversaciones difíciles sobre límites, sexo y cuidado sin que parezca un sermón aburrido."
   },
   {
     id: "bonus-5",
-    title: "Manual de Primeros Auxilios Emocionales (Botiquín Emocional)",
-    valueUsd: 35,
-    valueCop: 140000,
-    hook: "El mapa definitivo para descifrar el silencio de tu hijo. Sabrás exactamente qué hacer cuando se encierre en su habitación, grite o se aísle por completo, transformando una crisis de rebeldía en una oportunidad de oro para conectar."
+    title: "Escudo Digital: Guía de Control Parental en 5 Minutos",
+    valueUsd: 49,
+    valueCop: 200000,
+    hook: "Bloquea el porno e internet antes de que llegue a los ojos de tus hijos. Un tutorial paso a paso con capturas de pantalla para configurar la privacidad de Google, TikTok, YouTube y Netflix en un fin de semana."
   },
   {
     id: "bonus-6",
-    title: "Planificador de Metas Inquebrantables (Proyecto de Vida)",
-    valueUsd: 65,
-    valueCop: 260000,
-    hook: "Un adolescente con metas claras no arriesga su futuro. Esta plantilla interactiva es para que la diseñes paso a paso junto a él, uniendo de forma armoniosa sus sueños profesionales con decisiones responsables de autocuidado y sexualidad."
+    title: "Botiquín Emocional (Manual de Primeros Auxilios Emocionales)",
+    valueUsd: 35,
+    valueCop: 140000,
+    hook: "El mapa para descifrar el silencio de tu hijo. Sabrás exactamente qué hacer cuando se encierre en su cuarto, grite o se aísle, transformando una crisis de rebeldía en una oportunidad de conexión."
   },
   {
     id: "bonus-7",
+    title: "Planificador de Metas Inquebrantables (Proyecto de Vida)",
+    valueUsd: 65,
+    valueCop: 260000,
+    hook: "Un adolescente con metas claras no arriesga su futuro. Esta plantilla interactiva es para que la diseñes junto a él, uniendo sus sueños profesionales con decisiones responsables de autocuidado."
+  },
+  {
+    id: "bonus-8",
     title: "Biblioteca Digital de Literatura Especializada en ESI",
     valueUsd: 75,
     valueCop: 300000,
-    hook: "Acceso inmediato a nuestra biblioteca selecta de libros digitales, guías de organizaciones internacionales de la salud y materiales de descarga con bases científicas sólidas para consultar a tu propio ritmo por el resto de tu vida."
+    hook: "Acceso inmediato a nuestra biblioteca selecta de libros, guías internacionales de la ONU y materiales de descarga con bases científicas para que consultes a tu propio ritmo de por vida."
   }
 ];
 
 export const FAST_ACTION_BONUSES: BonusItem[] = [
   {
     id: "fast-bonus-1",
-    title: "Sesión de Mentoría Grupal en Vivo por Zoom con la Magíster Tatiana Domínguez",
+    title: "Bono VIP: Sesión de Mentoría Grupal en Vivo por Zoom con la Magíster Tatiana Domínguez",
     valueUsd: 150,
     valueCop: 600000,
-    hook: "¿Quieres que analicemos tu caso familiar cara a cara? Si eres de los primeros 50 en ingresar, tendrás un pase VIP a una sesión privada en Zoom para auditar tus mayores dudas de crianza sin ningún tipo de filtro y armar tu plan personalizado de acción.",
-    isFastAction: true
-  },
-  {
-    id: "fast-bonus-2",
-    title: "Curso Completo: 'Educación Sexual con Énfasis en Niños y Niñas' (Pregrabado)",
-    valueUsd: 97,
-    valueCop: 400000,
-    hook: "No solo vas a blindar a tu hijo adolescente. Con este acceso premium a mi segundo programa en Hotmart aprenderás a proteger a los más pequeños del hogar desde la primera infancia, creando un escudo familiar permanente frente al abuso y la desinformación.",
+    hook: "¿Quieres que analice tu caso familiar cara a cara? Si eres de los primeros 50 en entrar, tendrás un pase privado conmigo en Zoom para auditar tus dudas sin filtros y armar tu estrategia.",
     isFastAction: true
   }
 ];
 
-// 3. Pricing Math
+// 3. Pricing Math (From PDF Pages 7, 8)
 export const PRICING_MATH = {
   totalValueUsd: 905,
   totalValueCop: 3645000,
   specialPriceUsd: 100,
   specialPriceCop: 335000,
   hotmartPaymentLink: "https://pay.hotmart.com/M_EDOS_PLACEHOLDER?checkoutMode=10",
-  whatsappContactLink: "https://wa.me/573000000000?text=Hola%20Tatiana,%20quiero%20inscribirme%20al%20Plan%20Maestro%20EDOS"
+  whatsappContactLink: "https://wa.me/573000000000?text=Hola%20Tatiana,%20quiero%20inscribirme%20al%20Programa%20EDOS%20Educarte%20Live"
 };
 
-// 4. Timeline / Roadmap
+// 4. Timeline / Roadmap (From PDF Pages 8, 9)
 export const TIMELINE_PHASES: TimelinePhase[] = [
   {
-    dates: "6 – 17 JULIO",
-    phaseName: "Fase 1",
-    title: "Creación de la 'Oferta Grand Slam'",
-    tasks: "Grabación de videoclips de la Caja de Herramientas, preparación de guiones educativos y finalización de los acuerdos con el equipo médico y psicológico.",
-    team: "La Magíster Tatiana y Copywriters estructuran cada clase para blindar los dolores investigados en las familias.",
-    technicalDeliverable: "Diseño y validación metodológica al 100%."
+    dates: "6 - 17 JULIO",
+    phaseName: "Fase 1: Oferta Grand Slam",
+    title: "Semanas 1 y 2: Preparación & Acuerdos",
+    tasks: "Grabación de videos cortos ocultos de la 'Caja de Herramientas de YouTube'. Cierre de acuerdos con el médico y el psicólogo del equipo.",
+    team: "La Magíster Tatiana, el Copywriter, el Diseñador Web y el Editor estructurando las bases sólidas del programa.",
+    technicalDeliverable: "Páginas web y textos de anuncios 100% aprobados."
   },
   {
-    dates: "20 – 31 JULIO",
-    phaseName: "Fase 2",
-    title: "Campaña de Captación & Conexión",
-    tasks: "Apertura de los canales oficiales de comunicación, calentamiento con estadísticas cruciales sobre los peligros digitales (grooming, porno) y bienvenida en los grupos VIP de EDOS.",
-    team: "El equipo de tráfico enciende los anuncios mientras se envían guías rápidas preventivas a los participantes registrados.",
-    technicalDeliverable: "Optimización diaria de registros en los canales educativos."
+    dates: "20 - 31 JULIO",
+    phaseName: "Fase 2: Campaña Captación",
+    title: "Semanas 3 y 4: Bienvenida & Conexión",
+    tasks: "Mantener activas las redes orgánicas y dar la bienvenida en los grupos de WhatsApp VIP de EDOS que se irán llenando paulatinamente.",
+    team: "El Trafficker enciende anuncios pagos, la mentora y el Copywriter redactan mensajes de calentamiento y estadísticas sobre adolescencia.",
+    technicalDeliverable: "Monitoreo del costo por registro y optimización diaria de campañas."
   },
   {
-    dates: "3 – 7 AGOSTO",
-    phaseName: "Fase 3",
-    title: "La Semana del Lanzamiento (Masterclass)",
-    tasks: "Transmisión de la Clase Magistral Gratuita 'Las 3 llaves para conectar con tu hijo'. Al finalizar, apertura de matrículas del Plan Maestro con bonos limitados de acción rápida.",
-    team: "Interacción directa en chat para derribar temores y responder dudas sobre las admisiones.",
-    technicalDeliverable: "Apertura del carrito oficial con pasarela segura."
+    dates: "3 - 7 AGOSTO",
+    phaseName: "Fase 3: Lanzamiento",
+    title: "Semana 5: El Evento y Apertura",
+    tasks: "Mensajes de urgencia. Día 4: Clase magistral gratuita de 1.5 horas 'Las 3 llaves para conectar con tu hijo' y presentación de la Oferta Grand Slam.",
+    team: "Todo el equipo coordinando la transmisión por Zoom y la secuencia de escasez ('Solo quedan 15 cupos') por grupos VIP de WhatsApp.",
+    technicalDeliverable: "Carrito abierto de Hotmart y registro de los primeros 50 cupos VIP."
   },
   {
-    dates: "10 – 21 AGOSTO",
-    phaseName: "Fase 4",
-    title: "Ejecución de Clases en Vivo",
-    tasks: "Dictado interactivo de las 6 sesiones sincrónicas del Método EDOS. Los alumnos reciben inmediatamente sus guías, guiones de copiado y la certificación interdisciplinaria al finalizar.",
-    team: "Tatiana, psicólogo y médico acompañando activamente el chat en vivo en cada clase.",
-    technicalDeliverable: "Entrega de accesos permanentes y certificados académicos."
+    dates: "10 - 21 AGOSTO",
+    phaseName: "Fase 4: Ejecución",
+    title: "Semanas 6 y 7: 6 Encuentros en Vivo",
+    tasks: "Clases sincrónicas los días 11, 13, 18, 20, 25 y 27 de agosto a las 7:00 PM COT. Entrega de certificados de 12 horas.",
+    team: "Equipo Interdisciplinario de Trabajo Social, Psicología y Medicina respondiendo dudas en vivo y guiando a las familias.",
+    technicalDeliverable: "6 encuentros en vivo completados, certificados emitidos y accesos grabados entregados."
   }
 ];
 
 export const LIVE_CLASSES_DATES = [
-  { date: "11 de Agosto", day: "Martes", hour: "19:00 COT", theme: "Apertura & Amor Propio" },
-  { date: "13 de Agosto", day: "Jueves", hour: "19:00 COT", theme: "Mitos Sexuales y Redes" },
-  { date: "18 de Agosto", day: "Martes", hour: "19:00 COT", theme: "Frenando la Pornografía" },
-  { date: "20 de Agosto", day: "Jueves", hour: "19:00 COT", theme: "El Semáforo del Consentimiento" },
-  { date: "25 de Agosto", day: "Martes", hour: "19:00 COT", theme: "Prevención frente al Abuso" },
-  { date: "27 de Agosto", day: "Jueves", hour: "19:00 COT", theme: "Anticoncepción, ITS & Cierre" }
+  { date: "11 de Agosto", day: "Martes", hour: "19:00 COT", theme: "Clase 1: Mi Cuerpo, Mi Placer y Mis Dudas (Ser)" },
+  { date: "13 de Agosto", day: "Jueves", hour: "19:00 COT", theme: "Clase 2: ¿Y si me pregunta? Abordaje Parental" },
+  { date: "18 de Agosto", day: "Martes", hour: "19:00 COT", theme: "Clase 3: Seducción con Respeto y Consentimiento" },
+  { date: "20 de Agosto", day: "Jueves", hour: "19:00 COT", theme: "Clase 4: Límites que Salvan (Prevención de Abuso)" },
+  { date: "25 de Agosto", day: "Martes", hour: "19:00 COT", theme: "Clase 5: Sexo sin Susto (ITS y Anticoncepción Real)" },
+  { date: "27 de Agosto", day: "Jueves", hour: "19:00 COT", theme: "Clase 6: Sesión Interdisciplinaria de Preguntas Abiertas" }
 ];
 
 // 5. Testimonials Data (Text + Screens)
 export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: "test-1",
-    name: "Carolina Mendoza",
-    role: "Madre de Sofía (14 años) - Bogotá, Colombia",
-    text: "Mi mayor terror era la pornografía en internet. Gracias a los guiones de Tatiana, pude hablar con mi hija de forma súper natural en el almuerzo sin sentir vergüenza. El Método EDOS cambió el aire tenso que se respiraba en mi casa.",
+    name: "Carolina Montenegro",
+    role: "Madre de 2 adolescentes - Cali, Colombia",
+    text: "Estaba aterrorizada de que mi hijo de 14 años se encerrara a ver pornografía en el celular y no me dijera nada. Los guiones 'Rompe Hielos' de Tatiana me salvaron: tuvimos una charla fluida, tranquila y científica que nos unió como nunca.",
     rating: 5,
-    badge: "Madre de Adolescente"
+    badge: "Confianza Restaurada"
   },
   {
     id: "test-2",
-    name: "Hno. Francisco Javier",
-    role: "Rector de Colegio de Bachillerato - Cali",
-    text: "Como educador, la sexualidad solía ser un dolor de cabeza técnico. La visión interdisciplinaria (Trabajo Social, Medicina y Psicología) de este programa nos brindó herramientas científicas increíbles para guiar a los estudiantes en vez de prohibirles.",
+    name: "Andrés Gutiérrez",
+    role: "Padre de una joven de 16 años - Bogotá",
+    text: "El miedo a que mi hija sufriera acoso o un embarazo no planeado no me dejaba dormir. Gracias a las clases de Medicina y Trabajo Social de EDOS, hoy sabe cómo cuidarse y poner límites claros sin rodeos.",
     rating: 5,
-    badge: "Educador de Jóvenes"
+    badge: "Hijos Blindados"
   },
   {
     id: "test-3",
-    name: "Dr. Andrés Salazar",
-    role: "Pediatra y Padre de Familia - Medellín",
-    text: "Recomiendo ampliamente este programa. Tatiana une la precisión clínica con una empatía humana excepcional. No basta con enseñar biología, hay que entrenar el autoconcepto y la asertividad digital.",
+    name: "Viviana Rojas",
+    role: "Madre de familia - Quito, Ecuador",
+    text: "Un taller súper profesional. No es solo un profesional hablando, sino una trabajadora social, una psicóloga y un médico trabajando juntos. El manual de control parental por sí solo vale diez veces lo que cuesta el curso.",
     rating: 5,
-    badge: "Médico & Padre"
+    badge: "Hogar Seguro"
   }
 ];
 
 export const SCREENSHOT_TESTIMONIALS = [
   {
     id: "screen-1",
-    author: "Mónica G.",
+    author: "Martha L.",
     channel: "WhatsApp Grupo VIP",
-    message: "¡Chicas no saben! Mi hijo de 15 me preguntó sobre la masturbación anoche y me acordé del guión del 'MÉTODO EDOS'. Le respondí con tanta naturalidad que él mismo me abrazó y me agradeció. Antes me hubiera congelado de la angustia."
+    message: "Muchachas, apliqué el guión para responder cuando encontré pornografía en el historial de mi hijo. Él se sorprendió de mi tranquilidad y respeto. ¡Hablamos abiertamente por primera vez sin gritar!"
   },
   {
     id: "screen-2",
-    author: "Eduardo R.",
+    author: "Viviana R.",
     channel: "Chat en Vivo de Zoom",
-    message: "Excelente la clase con la Psicóloga y el Médico. Por fin alguien explica anticoncepción sin asustar ni juzgar, y centrado en que los chicos defiendan sus propios proyectos de vida."
+    message: "Tengo que confesar que lloré en el primer encuentro. Sentía pánico de que mis hijos cometieran un error que arruinara su proyecto de vida. Hoy me siento respaldada y con herramientas científicas claras."
   },
   {
     id: "screen-3",
-    author: "Patricia S.",
+    author: "Elena M.",
     channel: "Mensaje Directo de Instagram",
-    message: "El semáforo de consentimiento digital me pareció una obra de arte. Mi hija y yo lo imprimimos y lo pegamos en su cuarto. Saber que cuenta conmigo me da una paz mental impagable."
+    message: "El tutorial de control parental en 5 minutos es maravilloso. Ya configuré Google, YouTube y Netflix para mis hijos menores. Es una paz inmensa. Gracias Tatiana y todo el equipo de EDOS."
   }
 ];
 
 // 6. FAQs (Frequently Asked Questions)
 export const FAQS: FaqItem[] = [
   {
-    question: "¿Qué pasa si no puedo asistir a los encuentros en vivo por mis horarios?",
-    answer: "No te preocupes en lo absoluto. Todas las 6 sesiones se graban en alta definición y se suben a tu área de alumnos de Hotmart en menos de 24 horas, donde tendrás acceso de por vida. Podrás formular tus preguntas con antelación o enviarlas para que sean resueltas por el equipo interdisciplinario."
+    question: "¿Para qué edades de hijos está recomendado el Método EDOS?",
+    answer: "El programa está enfocado en dotar de herramientas a los padres con hijos entre los 9 y 18 años. Aborda desde el desarrollo biológico inicial y las primeras dudas físicas, hasta los riesgos de la pornografía, el consentimiento digital, el noviazgo, el autocuidado y las ITS."
   },
   {
-    question: "¿Este programa es únicamente para padres de familia?",
-    answer: "Para nada. Es un entrenamiento de altísimo valor para docentes, psicopedagogos, profesionales de la salud, cuidadores y cualquier adulto responsable que tenga bajo su cargo la guía o formación de adolescentes y busque herramientas prácticas y validadas."
+    question: "¿Qué pasa si mis hijos se niegan rotundamente a recibir charlas de sexualidad?",
+    answer: "¡Excelente! Porque este programa está diseñado para entrenar a los PADRES, no a los hijos. Tú eres el primer referente en casa. Con las plantillas de conversaciones y los guiones de copiado rápido, aprenderás a intervenir en el día a día de forma natural y espontánea sin darles discursos incómodos o 'charlas rígidas' que los distancien."
   },
   {
-    question: "¿El lenguaje o las temáticas son demasiado explícitas o inapropiadas?",
-    answer: "Es un programa con un profundo sentido de respeto, cuidado y rigor profesional. Tratamos los temas de manera directa y científica, despojándolos del morbo o la vulgaridad. Buscamos empoderar al adulto con la terminología correcta para que sea un referente confiable."
+    question: "¿Quiénes dictan el taller y qué profesionales acompañan el proceso?",
+    answer: "El programa es liderado por la Mgt. Tatiana Domínguez Valencia (Trabajadora Social Clínica y Magíster en Salud Sexual) y cuenta con la docencia y acompañamiento directo de un equipo interdisciplinario de expertos en Psicología y Medicina, cubriendo el aspecto clínico, legal y psicosocial de forma profesional."
   },
   {
-    question: "¿Recibiré las grabaciones y las plantillas descargables para siempre?",
-    answer: "Sí. Todo el material del curso en Hotmart, las plantillas listas para usar, los guiones 'rompe hielos', las matrices de consentimiento y las videotecas VIP tienen acceso garantizado de por vida para ti, incluyendo futuras actualizaciones."
+    question: "¿Por qué el programa de 6 encuentros tiene un costo de lanzamiento tan accesible?",
+    answer: "Como fundadores de EDOS, nuestra misión es masificar la Educación Sexual Integral basada en la ciencia para blindar a la mayor cantidad de hogares de los peligros digitales y los abusos. Creemos que la desinformación no debe ser una barrera y por eso ofrecemos esta oferta colectiva de lanzamiento."
   },
   {
-    question: "¿Tiene bases científicas y metodológicas?",
-    answer: "Absolutamente. El Método EDOS se fundamenta en un marco de derechos sexuales y reproductivos, la psicología del desarrollo adolescente y las metodologías del trabajo social clínico y la medicina preventiva. No es mera opinión; es ciencia aplicada con pedagogía del afecto."
+    question: "¿Las clases se graban si no puedo estar en directo por Zoom?",
+    answer: "Sí, todos los encuentros en vivo se graban en alta definición y se suben a la plataforma privada de Hotmart en menos de 24 horas. Tendrás acceso de por vida al aula virtual para repasar las lecciones y descargar las plantillas a tu propio ritmo."
   },
   {
-    question: "¿Qué pasa si descubro que mi hijo adolescente ya consume pornografía?",
-    answer: "Este es el caso del 80% de los padres que ingresan. En la Clase 2 del Módulo 1 te enseñamos el protocolo exacto para manejar esta situación: cómo hablarlo sin gritar, sin humillaciones ni silencios, usándolo como una palanca educativa para desmitificar las falsas expectativas relacionales."
-  },
-  {
-    question: "Me da muchísima vergüenza o pena hablar de estos temas en mi hogar. ¿Me servirá?",
-    answer: "Es completamente normal, fuimos educados en el tabú. Por eso te entregamos los 'guiones de copiado' escritos palabra por palabra. No tienes que inventar nada; solo leer el guión y seguir las pautas de modulación emocional que te enseñamos para que la conversación fluya sin esfuerzo."
+    question: "¿Qué garantía tengo si el programa no cumple mis expectativas?",
+    answer: "Cuentas con una garantía incondicional de 7 días. Si asistes a los primeros encuentros, revisas los materiales descargables y sientes que no aportan valor real para guiar a tus hijos, solicitas el reembolso total con un solo clic y te devolvemos el 100% de tu dinero."
   }
 ];
 
@@ -358,32 +354,32 @@ export interface SurveyQuestion {
 export const SURVEY_QUESTIONS: SurveyQuestion[] = [
   {
     id: "q1",
-    question: "¿Cuál es tu mayor temor o frustración en la comunicación con tus hijos adolescentes sobre sexualidad?",
+    question: "¿Cuál es tu mayor temor o desafío con respecto a la sexualidad y el desarrollo de tus hijos hoy?",
     options: [
-      { label: "Quedarme en blanco o no saber qué decir ante una pregunta incómoda", points: "A", description: "Falta de guiones prácticos" },
-      { label: "Que aprendan cosas distorsionadas en internet o mediante la pornografía", points: "B", description: "Peligros del entorno digital" },
-      { label: "Llegar tarde y que se expongan a embarazos no planeados, ITS o abusos", points: "C", description: "Necesidad de prevención urgente" },
-      { label: "Sentir que me evitan, me ocultan cosas o que hay un silencio total en casa", points: "D", description: "Pérdida de la conexión emocional" }
+      { label: "Que busquen respuestas sobre sexo en internet o con amigos antes que conmigo, por miedo a que los juzgue", points: "A", description: "Brecha de comunicación y silencio" },
+      { label: "El pánico al consumo silencioso de pornografía y no saber cómo reaccionar sin gritar o castigar", points: "B", description: "Riesgos digitales y desinformación" },
+      { label: "Los peligros de las redes, noviazgos violentos o manipulación que vulneren su seguridad", points: "C", description: "Consentimiento y prevención de abusos" },
+      { label: "El riesgo de un embarazo no planeado o ITS por usar métodos caseros o consejos de TikTok", points: "D", description: "Salud reproductiva y autocuidado" }
     ]
   },
   {
     id: "q2",
-    question: "Cuando surge un tema relacionado con parejas, noviazgo o intimidad, ¿cómo reaccionas?",
+    question: "Cuando intentas abordar un tema de desarrollo corporal o íntimo en casa, ¿cuál suele ser la reacción?",
     options: [
-      { label: "Cambio de tema rápidamente o hago una broma para disimular la vergüenza", points: "A", description: "Tabú inconsciente" },
-      { label: "Doy un discurso biológico muy técnico pero esquivo lo emocional/placer", points: "B", description: "Falta de enfoque integral" },
-      { label: "Establezco normas rígidas y de prohibición por miedo a que pase algo malo", points: "C", description: "Enfoque basado en el pánico" },
-      { label: "Hablamos poco porque ellos se cierran y me dicen que 'ya lo saben todo'", points: "D", description: "Barrera defensiva adolescente" }
+      { label: "Se ponen completamente mudos, evaden el tema o se encierran rápido en su cuarto", points: "A", description: "Evasión emocional" },
+      { label: "Se burlan, lo toman como broma o dicen que 'ya lo saben todo' por internet", points: "B", description: "Mito de autosuficiencia digital" },
+      { label: "Sienten que los estoy vigilando, interrogando o juzgando y se molestan", points: "C", description: "Resistencia por miedo al juicio" },
+      { label: "Nunca hemos hablado de esto en casa por vergüenza, tabúes o falta de guiones claros", points: "D", description: "Barrera invisible de tabúes" }
     ]
   },
   {
     id: "q3",
-    question: "Si tuvieras que elegir una herramienta para empezar HOY a transformar tu hogar, ¿cuál elegirías?",
+    question: "Si pudieras recibir un recurso de auxilio y blindaje hoy mismo, ¿cuál sería el más prioritario para ti?",
     options: [
-      { label: "Guiones exactos palabra por palabra para abrir la conversación sin tensiones", points: "A", description: "Guiones Rompehielos" },
-      { label: "Un método para bloquear la pornografía y configurar control parental rápido", points: "B", description: "Escudo Digital" },
-      { label: "Aprender a enseñarle a mi hijo a decir NO y poner límites reales a su pareja", points: "C", description: "Semáforo del Consentimiento" },
-      { label: "Una sesión cara a cara con profesionales para guiar mi caso particular", points: "D", description: "Mentoría Personalizada" }
+      { label: "Guiones con respuestas paso a paso ante preguntas incómodas para no quedarme en blanco", points: "A", description: "Guiones Rompe Hielos" },
+      { label: "Un tutorial paso a paso para configurar el Control Parental de forma segura y bloquear la pornografía", points: "B", description: "Escudo Digital" },
+      { label: "Una lista de banderas rojas en el noviazgo para que identifiquen manipulaciones y abusos", points: "C", description: "Banderas Rojas de Alerta" },
+      { label: "Fichas técnicas explicadas sin tabúes sobre anticoncepción real y prevención de riesgos médicos", points: "D", description: "Educación Médica y de Futuro" }
     ]
   }
 ];
